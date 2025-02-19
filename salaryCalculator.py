@@ -18,3 +18,6 @@ for j in range(len(percentages)):
 for u in range(len(percentages)):
     totalAmount = sum(percentages)/100 * salary
     print(f"The total amount spent on savings, rent, and electricity is {totalAmount}")
+
+yearlyAmount = totalAmount * 12
+print(f"the yearly amount spent on savings, rent, and electricity is {yearlyAmount}")
